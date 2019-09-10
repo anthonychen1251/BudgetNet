@@ -15,7 +15,7 @@ PyTorch1.1+
 
 ## Results
 ![image](./images/ResNeXt_29_C10.png)
-To get the results, download model weights in [here](https://drive.google.com/file/d/1jk7p_Vbf9dIbPpqHtxm96NJ6IV1ymzNS/view?usp=sharing) and run
+To get this result, download model weights in [here](https://drive.google.com/file/d/1jk7p_Vbf9dIbPpqHtxm96NJ6IV1ymzNS/view?usp=sharing) and run
 ```shell
 python test.py --model ResNext_C10 --depth 29 --base_width 16 --cardinality 4 --load ./ckpt_E_1280.t7 --output ResNeXt_29_C10.txt
 ```
